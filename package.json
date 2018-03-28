@@ -1,0 +1,18 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "translate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp bundle",
+    "start": "gulp",
+    "deploy": "contentful extensions update"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inline-source": "^3.1.0",
+    "gulp-serve": "^1.4.0"
+  }
+}
